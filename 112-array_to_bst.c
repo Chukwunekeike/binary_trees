@@ -19,5 +19,5 @@ bst_t *array_to_bst(int *array, size_t size)
 	{
 		bst_insert(&tree, array[index]);
 	}
-	return(tree);
+	return (tree);
 }
